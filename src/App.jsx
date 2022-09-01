@@ -1,24 +1,24 @@
-function Hola({persona}) {
-  return (
-    <div>Hola {persona}</div>
-  )
-}
+import { Hola, EdadPermitida } from './components/Hola';
+import Padre from './components/Padre';
+import Click from './components/Click';
 
-function EdadPermitida({edad}){
-  return (
-    <div>
-      <p>{edad >= 18 ? 'Si puedes tomar': 'No podes tomar!'}</p>
-    </div>
-  )
-}
+import './App.css';
 
 function App() {
+
+
   return (
     <div className="centrar">
+{/* 
+      <Hola persona="Marcos" />
 
-      <Hola persona="Daniel" />
+      <EdadPermitida edad={12} />
 
-      <EdadPermitida edad={40} />
+      <Padre>
+        <p>lorem ipsum</p>
+      </Padre> */}
+
+      <Click />
     </div>
   )
 }
