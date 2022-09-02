@@ -43,3 +43,10 @@
 .read-the-docs {
   color: #888;
 }
+
+.person-container {
+  border: 1px solid #a4999d;
+  widows: 40vw;
+  padding: 20px;
+  margin-bottom: 20px;
+}
